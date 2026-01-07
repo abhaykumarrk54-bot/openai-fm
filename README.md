@@ -1,90 +1,81 @@
-# OpenAI.fm
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![NextJS](https://img.shields.io/badge/Built_with-NextJS-blue)
-![OpenAI API](https://img.shields.io/badge/Powered_by-OpenAI_API-orange)
-
-[OpenAI.fm](https://openai.fm) is an interactive demo to showcase the new OpenAI text-to-speech models.
-It is built with NextJS and the [Speech API](https://platform.openai.com/docs/api-reference/audio/createSpeech).
-
-For more information about text-to-speech using the OpenAI API, check out our [documentation](https://platform.openai.com/docs/guides/text-to-speech).
-
-![screenshot](./public/screenshot.jpg)
-
-## How to run
-
-1. **Set up the OpenAI API:**
-
-   - If you're new to the OpenAI API, [sign up for an account](https://platform.openai.com/signup).
-   - Follow the [Quickstart](https://platform.openai.com/docs/quickstart) to retrieve your API key.
-
-2. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/openai/openai-fm.git
-   ```
-
-3. **Set the OpenAI API key:**
-
-   2 options:
-
-   - Set the `OPENAI_API_KEY` environment variable [globally in your system](https://platform.openai.com/docs/libraries#create-and-export-an-api-key)
-   - Set the `OPENAI_API_KEY` environment variable in the project: Create a `.env` file at the root of the project and add the following line (see `.env.example` for reference):
-
-   ```bash
-   OPENAI_API_KEY=<your_api_key>
-   ```
-
-4. **Install dependencies:**
-
-   Run in the project root:
-
-   ```bash
-   npm install
-   ```
-
-5. **(Optional) Connect to a hosted database:**
-
-   If you want to use the sharing feature, you need to connect to a hosted postgres database.
-   You should set the environment variables in a `.env` file at the root of the project to connect to your database as shown in `.env.example`.
-
-   ```bash
-   POSTGRES_URL="postgresql://username:password@host:port/database_name"
-   ```
-
-   This step is not needed to run the application and only affects the sharing feature.
-
-6. **Run the app:**
-
-   ```bash
-   npm run dev
-   ```
-
-   The app will be available at [`http://localhost:3000`](http://localhost:3000).
-
-> [!NOTE]  
-> Be aware that if you deploy this app to a public server, you are responsible for any usage it may incur using your OpenAI API key.
-
-## Contributors
-
-### OpenAI team
-
-- [Tyler Smith](https://github.com/tylersmith-openai)
-- [Karolis Kosas](https://github.com/karoliskosas)
-- [Justin Jay Wang](https://github.com/justinjaywang)
-- [Bobby Stocker](https://github.com/stocker-openai)
-- [Jeff Harris](https://github.com/jeffsharris)
-- [Romain Huet](https://github.com/romainhuet)
-- [David Weedon](https://github.com/weedon-openai)
-- [Iaroslav Tverdokhlib](https://github.com/itv-openai)
-- [Adam Walker](https://github.com/awalker-openai)
-- [Edwin Arbus](https://x.com/edwinarbus)
-- [Katia Gil Guzman](https://github.com/katia-openai)
-
-### Contributing
-
-You are welcome to open issues or submit PRs to improve this app, however, please note that we may not review all suggestions.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+काली हवेली का आख़िरी कमरा 👻
+गाँव से थोड़ा बाहर, जंगल के किनारे एक पुरानी हवेली थी।
+लोग उसे “काली हवेली” कहते थे।
+कोई नहीं जानता था क्यों… बस इतना पता था कि जो भी रात में वहाँ गया, वापस नहीं लौटा।
+गाँव के बुज़ुर्ग कहते थे—
+“सूरज ढलने के बाद उस हवेली की तरफ़ मत जाना, वहाँ हवा भी ज़िंदा है…”
+1️⃣ अनजाना कदम
+राहुल एक शहर से आया लड़का था।
+डर-वगैरह पर उसे बिल्कुल भरोसा नहीं था।
+उसने सुना कि हवेली में रात को अजीब आवाज़ें आती हैं, तो वह हँस पड़ा।
+“ये सब गाँव वालों की कहानियाँ हैं,”
+कहकर वह कैमरा और टॉर्च लेकर हवेली की तरफ़ चल पड़ा।
+2️⃣ हवेली का दरवाज़ा
+जैसे ही राहुल ने हवेली का दरवाज़ा धक्का दिया—
+क्रीईईईच…
+आवाज़ ऐसी थी जैसे किसी ने दर्द से चीख मारी हो।
+अंदर घुसते ही ठंडक इतनी बढ़ गई कि साँस से धुआँ निकलने लगा।
+दीवारों पर पुराने खून के निशान थे, जैसे किसी ने नाखूनों से खरोंचा हो।
+तभी…
+ठक… ठक… ठक…
+ऊपर से किसी के चलने की आवाज़ आई।
+3️⃣ बिना चेहरा वाली परछाईं
+राहुल ने टॉर्च ऊपर मारी।
+सीढ़ियों पर एक परछाईं खड़ी थी।
+ना आँखें, ना मुँह… बस लंबा काला साया।
+“क… कौन है वहाँ?”
+राहुल की आवाज़ काँप रही थी।
+परछाईं अचानक गायब हो गई।
+और तभी उसके कान के पास एक ठंडी साँस चली—
+“तू भी यहीं रहेगा…”
+4️⃣ बंद दरवाज़ा
+राहुल भागकर बाहर निकलना चाहता था,
+पर दरवाज़ा अपने आप बंद हो चुका था।
+धड़ाम!
+दीवारों से खून टपकने लगा।
+फर्श पर हाथों के निशान उभर आए—
+जैसे कोई रेंगता हुआ आ रहा हो।
+तभी उसे एक पुरानी डायरी मिली।
+5️⃣ सच्चाई का राज़
+डायरी में लिखा था—
+“इस हवेली में एक परिवार रहता था।
+एक रात मालिक ने अपनी पत्नी और बेटी को इसी आख़िरी कमरे में ज़िंदा जला दिया।
+उनकी आत्माएँ यहीं क़ैद हैं।
+जो भी अंदर आएगा, वह उनकी जगह लेगा…”
+राहुल का शरीर सुन्न हो गया।
+तभी ऊपर से किसी बच्ची के रोने की आवाज़ आई—
+“मुझे बहुत जलन हो रही है…”
+6️⃣ आख़िरी कमरा
+राहुल अनजाने में सीढ़ियाँ चढ़ने लगा।
+हर सीढ़ी पर जलने के निशान थे।
+आख़िरी कमरे का दरवाज़ा अपने आप खुल गया।
+अंदर—
+एक जली हुई औरत,
+और उसके पास एक बच्ची…
+दोनों की आँखें खून से भरी थीं।
+औरत बोली—
+“हमें आज़ादी चाहिए…”
+7️⃣ अदला-बदली
+अचानक बच्ची ने राहुल का हाथ पकड़ लिया।
+हाथ बर्फ़ जैसा ठंडा था।
+कमरे में आग जल उठी।
+राहुल चीखता रहा—
+“मुझे छोड़ दो!”
+औरत हँसी…
+“अब तू रहेगा यहाँ…”
+8️⃣ सुबह की ख़ामोशी
+अगली सुबह गाँव वाले हवेली के पास से गुज़रे।
+सब कुछ शांत था।
+पर खिड़की में एक लड़का खड़ा था—
+चेहरा जला हुआ,
+आँखें खाली।
+और हवेली के अंदर से आवाज़ आई—
+“अगला कौन?”
+😱 कहानी यहीं खत्म नहीं होती…
+क्योंकि काली हवेली आज भी खड़ी है।
+अगर चाहो तो मैं
+इसे YouTube narration style में
+या और भी ज़्यादा डरावना Part-2
+या short reels version
+भी बना दूँ… बस बताओ 👀
